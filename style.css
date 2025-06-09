@@ -142,7 +142,7 @@ section {
 }
 
 .home-img img {
-    width: 32vw;
+    width: 30vw;
     border-radius: 50%;
     box-shadow: 0 0 25px var(--main-color);
     transition: 0.4s ease-in-out;
@@ -184,7 +184,6 @@ section {
     display: inline-block;
     padding: 1rem 3rem;
     background-color: var(--main-color);
-    box-shadow: 0 0 25px var(--main-color);
     border-radius: 3rem;
     font-size: 1.5rem;
     color: black;
@@ -195,8 +194,6 @@ section {
 
 .btn:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 25px var(--main-color),
-        0 0 50px var(--main-color),
 }
 
 .btn-group a:nth-of-type(2) {
@@ -221,7 +218,7 @@ section {
 }
 
 .about-img img {
-    width: 32vw;
+    width: 30vw;
     border-radius: 50%;
     box-shadow: 0 0 25px var(--main-color);
     transition: 0.4s ease-in-out;
@@ -238,7 +235,7 @@ section {
     text-align: left;
 }
 
-.about-content p {
+.about-content ul {
     font-size: 1.5rem;
 }
 
@@ -266,7 +263,8 @@ section {
 
 .services {
     background-color: var(--bg-color);
-    color: black;
+    color: white;
+    border: #0c38ea;
 }
 
 .services h2 {
@@ -282,18 +280,19 @@ section {
 
 .service-box {
     display: flex;
+    border: var(--main-color);
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: black;
     height: 300px;
     border-radius: 3rem;
     cursor: pointer;
-    border: 5px solid transparent;
+    border: 5px solid var(--main-color);
     transition: 0.4s ease-in-out;
 }
 
 .service-box:hover {
-    background: whitesmoke;
+    background: black;
     color: var(--main-color);
     border: 5px solid var(--main-color);
     transform: scale(1.03);
@@ -309,12 +308,14 @@ section {
 }
 
 .service-info h4 {
-    font-size: 4rem;
+    color: white;
+    font-size: 3rem;
     margin: 2rem 0;
     font-weight: 800;
 }
 
 .service-info p {
+    color: white;
     font-size: 1.4rem;
     font-weight: 600;
     line-height: 1.7;
